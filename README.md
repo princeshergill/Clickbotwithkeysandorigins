@@ -1,35 +1,10 @@
 # Clickbot with Keys and Origins
 
-This tool simulates real user behavior on Google Maps using rotating search keywords and origin points. It clicks on a target business and requests directions.
+This tool simulates real user behavior on Google Maps using rotating search keywords and origin points. It clicks on a target listing (like Eunoia Medispa), enters directions from a rotating list of origin locations, and scrolls to simulate human activity.
 
 ## How to Run
 
-1. Clone the repo:
-```
+1. **Clone the repo:**
+```bash
 git clone https://github.com/princeshergill/Clickbotwithkeysandorigins.git
 cd Clickbotwithkeysandorigins
-```
-
-2. Set up your virtual environment:
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. Install dependencies:
-```
-pip install -r requirements.txt
-playwright install
-```
-
-4. Place your `keywords.txt` and `origins.txt` files in the root.
-
-5. Run:
-```
-python search_click_bot.py
-```
-
-## Output
-
-- Logs: `~/maps-bot/maps_requests.log`
-- Screenshots: `~/maps-bot/failures/`
