@@ -1,0 +1,11 @@
+# How to Run the Click Bot (macOS Edition)
+
+Follow these steps to install and run the Clickbotwithkeysandorigins on macOS.
+
+---
+
+## ✅ One-Time Setup
+
+1. **Ensure command line tools are installed**:
+```bash
+xcode-select --install
